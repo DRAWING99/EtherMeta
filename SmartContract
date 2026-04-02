@@ -151,3 +151,33 @@ contract TokenERC20  {
         return true;
     }
 }
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+// استيراد مكتبات الأمان العالمية (OpenZeppelin)
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+/**
+ * @title RILcoin
+ * @dev نسخة حديثة وآمنة لعملة RILcoin مبنية على معايير Ethereum Meta
+ */
+contract RILcoin is ERC20, ERC20Burnable, Ownable {
+
+    // تحديد عدد العملات الإجمالي (مثل Ethereum Meta: 99 مليار عملة)
+    uint256 private constant INITIAL_SUPPLY = 99_000_000_000 * 10**18;
+
+    constructor() ERC20("RILcoin", "RIL") Ownable(msg.sender) {
+        // إرسال جميع العملات إلى محفظة الشخص الذي ينشئ العقد (أنت)
+        _mint(msg.sender, INITIAL_SUPPLY);
+    }
+
+    /**
+     * وظيفة اختيارية: تسمح لك (كصاحب العملة فقط) بإنشاء عملات إضافية مستقبلاً
+     * إذا كنت تريد أن يكون العدد ثابتاً للأبد، يمكنك حذف هذه الوظيفة
+     */
+    function mint(address to, uint256 amount) public onlyOwner {
+        _mint(to, amount);
+    }
+}
