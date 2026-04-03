@@ -1,21 +1,23 @@
-MIT License
+# PROPRIETARY COMMERCIAL LICENSE & PATENT NOTICE
 
-Copyright (c) 2018 ethermeta
+Copyright (c) 2026 [Hassn Mohammed]. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 1. PATENT PROTECTION
+The algorithms and methodologies contained in this software, specifically the "AI-Driven 1:1 Fiat-Crypto Balancing Engine" and "Complex Block Correction Mechanism," are PROTECTED BY PATENT No: [ضع رقم براءة الاختراع هنا] registered on [تاريخ التسجيل]. 
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 2. GRANT OF LICENSE & TERMS OF USE
+- **Non-Commercial Use:** Permission is hereby granted to individuals and the Ethereum developer community to study, contribute to, and test this software for educational and development purposes ONLY.
+- **Commercial Use:** Any use of this software, its derivatives, or the patented algorithms for commercial purposes—including but not limited to: Market Making services, Wealth Management, or integration into fee-generating trading platforms—is STRICTLY PROHIBITED without a prior written license agreement from the Patent Holder.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 3. REVOCATION OF PREVIOUS LICENSES
+This License officially SUPERSEDES and REVOKES any previous licenses (including MIT, GPL, or others) associated with this repository. Any commercial deployment of this code after the date of this update must comply with these new terms.
+
+## 4. CONTRIBUTIONS & MERGING
+By contributing to this repository or merging it with other protocols (e.g., Ethereum), the Patent Holder does NOT waive any intellectual property rights or patent claims. The Patent Holder retains exclusive rights to monetize the core technology and the patented methods.
+
+## 5. LIMITATION OF LIABILITY
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE COPYRIGHT HOLDER OR PATENT HOLDER SHALL NOT BE LIABLE FOR ANY TRADING LOSSES, FINANCIAL DAMAGES, OR SYSTEM FAILURES ARISING FROM THE USE OF THIS SOFTWARE.
+
+---
+For commercial licensing inquiries, please contact: [ضع بريدك الإلكتروني هنا]
+
